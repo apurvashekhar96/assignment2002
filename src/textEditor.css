@@ -1,0 +1,45 @@
+.DraftEditor-root{
+   
+    /* min-height:60vh; */
+    height: 100%;
+    margin: 20px auto;
+    border: 2.5px solid rgb(148, 148, 238);
+    text-align: left;
+    padding: 20px;
+}
+
+.red-line{
+    color: red
+}
+
+.strikeThrough{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: 700;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 60vh;
+}
+
+.title{
+    width: 90%;
+    font-weight: 500;
+    /* margin-top: 50px; */
+}
+
+.saveBtn{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    box-shadow: rgb(0, 0, 0) 3px 3px;
+    cursor: pointer;
+}
+.saveBtn:active{
+    transform: scale(1.2);
+    transition: all linear 2s;
+}
